@@ -19,7 +19,7 @@ default["railsbox"]["default_config"]["unicorn_runit"]["rack_env"] = "production
 
 default["railsbox"]["db_root_password"] = nil
 
-default["railsbox"]["databases"]["postgresql"] = []
+default["railsbox"]["databases"]["mysql"] = []
 
 
 default[:github_deploys][:deploy_user] = "deploy"

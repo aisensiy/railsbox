@@ -4,9 +4,9 @@
 # "apt\sudo\user\curl\htop\git\tmux"+rbenv+nginx+nodejs+psql+github-deploys
 #
 # Copyright (C) 2013 zhiping
-# 
+#
 # All rights reserved - Do Not Redistribute
-# 
+#
 
 node.set['build_essential']['compiletime'] = true
 
@@ -20,8 +20,8 @@ if node["railsbox"]["apps"]["unicorn"]
   include_recipe "railsbox::unicorn"
 end
 
-if node["railsbox"]["databases"]["postgresql"]
-  include_recipe "railsbox::postgresql"
+if node["railsbox"]["databases"]["mysql"]
+  include_recipe "railsbox::mysql"
 end
 
 if node["github_deploys"]

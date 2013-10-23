@@ -1,4 +1,4 @@
 site :opscode
 
 metadata
-cookbook 'postgresql', git: 'https://github.com/opscode-cookbooks/postgresql.git'
+cookbook 'mysql', git: 'https://github.com/opscode-cookbooks/mysql.git'
